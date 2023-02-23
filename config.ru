@@ -1,3 +1,7 @@
+require_relative "./config/environment"
+
+run ApplicationController
+
 require 'sinatra'
 
 class App < Sinatra::Base
